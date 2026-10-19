@@ -35,20 +35,20 @@ local CONFIG = {
 	ButtonStart = Vector2.new(24, 140),
 	SoundVolume = 1,
 	Sounds = {
-		Options = "131992569893531", -- plays when the signature line appears (fades out once you sign)
-		Accept = "87902585866198", -- plays when you sign YES to turn ESP on
-		Revoke = "114932759828451", -- plays when you sign YES to break the deal (ESP off)
+		Options = "", -- plays when the signature line appears (fades out once you sign)
+		Accept = "", -- plays when you sign YES to turn ESP on
+		Revoke = "", -- plays when you sign YES to break the deal (ESP off)
 		-- Chain sounds: paste a Roblox sound ID between the quotes (empty = no sound)
 		ChainRattle = "138578515682597", -- chains rattling while the demon thrashes
 		ChainBreak = "114697042640276", -- chains shattering when the deal is signed
 		ChainSlam = "124010302828027", -- chains slamming back when the deal is broken
 		-- More optional sounds for the contract (empty = no sound)
-		Open = "89467123774204", -- the contract appears (a deep boom or a wolf growl fits)
+		Open = "", -- the contract appears (a deep boom or a wolf growl fits)
 		Heartbeat = "130313000679525", -- every heartbeat while the contract is open
-		Whisper = "108140477037255", -- when a whispered word flashes (LET ME OUT, BURN...)
-		Eyes = "90675029086689", -- when the glowing eyes open
-		Slash = "89470997745292", -- claw marks slashing
-		Sign = "99308600583286", -- the signature being scribbled in blood
+		Whisper = "", -- when a whispered word flashes (LET ME OUT, BURN...)
+		Eyes = "", -- when the glowing eyes open
+		Slash = "", -- claw marks slashing
+		Sign = "", -- the signature being scribbled in blood
 	},
 }
 
